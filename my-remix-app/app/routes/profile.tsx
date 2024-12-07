@@ -1,4 +1,4 @@
-function MyProfile() {
+ function MyProfile() {
     return(
         <>
         <div className="p-5 m-5 border-teal-500 rounded">
@@ -14,17 +14,23 @@ function MyProfile() {
     );
 }
 
-function MyEducation(){
-return(
-    <div className="p-5 m-5 border-2 border-red-500 rounded">
-        <h1 className="text-xl font-bold text-amber-700">Education</h1>
-        <ul className="list-disc>
-            <li>information Technology , RMUTTO , 2567-Present</li>
-            <li>Xxxx, xxx, 999-999</li>
-            <li>Yyyy, yyy, 999-999</li>
+const MyEducation = () => {
+    return (
+        <div>
+            <strong> Educations 
+
+            </strong>
+            <ul className="list-disc">
+                <li>
+                    RMUTTO 2024-Present
+                </li>
+                <li>
+                    Information Technology
+                </li>
             </ul>
         </div>
-);
+    )
 }
 
-export default MyProfile();
+export default MyProfile
+
